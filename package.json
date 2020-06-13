@@ -1,0 +1,25 @@
+{
+  "name": "csv-report-generator",
+  "version": "1.0.0",
+  "description": "converts json to csv files",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinnfinite/csv-report-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quinnfinite/csv-report-generator/issues"
+  },
+  "homepage": "https://github.com/quinnfinite/csv-report-generator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
